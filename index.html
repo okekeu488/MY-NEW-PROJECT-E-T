@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Track your daily spending in Nigerian Naira with this elegant expense tracker. Add, view, and remove expenses effortlessly." />
+  <meta name="description"
+    content="Track your daily spending in Nigerian Naira with this elegant expense tracker. Add, view, and remove expenses effortlessly." />
   <title>Expense Tracker — Track Your Daily Spending in ₦</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <div class="bg-blobs" aria-hidden="true">
     <span class="blob blob-1"></span>
@@ -22,7 +25,8 @@
     <header class="header">
       <div class="logo-row">
         <div class="logo-icon" aria-hidden="true">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
             <line x1="12" y1="1" x2="12" y2="23"></line>
             <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
           </svg>
@@ -43,30 +47,18 @@
     <form class="input-card" id="expense-form" autocomplete="off">
       <div class="input-group">
         <label for="expense-name">Expense Name</label>
-        <input
-          type="text"
-          id="expense-name"
-          placeholder="e.g. Lunch, Transport, Data…"
-          maxlength="60"
-          required
-        />
+        <input type="text" id="expense-name" placeholder="e.g. Lunch, Transport, Data…" maxlength="60" required />
       </div>
       <div class="input-group">
         <label for="expense-amount">Amount (₦)</label>
         <div class="amount-wrapper">
           <span class="currency-prefix" aria-hidden="true">₦</span>
-          <input
-            type="number"
-            id="expense-amount"
-            placeholder="0.00"
-            min="1"
-            step="any"
-            required
-          />
+          <input type="number" id="expense-amount" placeholder="0.00" min="1" step="any" required />
         </div>
       </div>
       <button type="submit" class="btn-add" id="btn-add">
-        <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <line x1="12" y1="5" x2="12" y2="19"></line>
           <line x1="5" y1="12" x2="19" y2="12"></line>
         </svg>
@@ -88,7 +80,8 @@
       </ul>
 
       <div class="empty-state" id="empty-state">
-        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="empty-icon">
+        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"
+          stroke-linecap="round" stroke-linejoin="round" class="empty-icon">
           <rect x="2" y="4" width="20" height="16" rx="2"></rect>
           <line x1="6" y1="9" x2="18" y2="9"></line>
           <line x1="6" y1="13" x2="14" y2="13"></line>
@@ -106,4 +99,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>

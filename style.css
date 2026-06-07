@@ -13,21 +13,21 @@
 
 :root {
   /* palette */
-  --bg-body:       #0b0f1a;
+  --bg-body:       #000000;
   --bg-card:       rgba(255, 255, 255, 0.04);
   --bg-card-hover: rgba(255, 255, 255, 0.07);
   --glass-border:  rgba(255, 255, 255, 0.08);
   --text-primary:  #f0f2f8;
   --text-secondary:#8a90a4;
   --text-muted:    #555c72;
-  --accent:        #6c63ff;
-  --accent-glow:   rgba(108, 99, 255, 0.35);
-  --accent-light:  #a49cff;
+  --accent:        #2962ff;
+  --accent-glow:   rgba(41, 98, 255, 0.35);
+  --accent-light:  #82b1ff;
   --danger:        #ff5c6c;
   --danger-glow:   rgba(255, 92, 108, 0.25);
   --success:       #34d399;
-  --gradient-1:    linear-gradient(135deg, #6c63ff 0%, #b065ff 100%);
-  --gradient-2:    linear-gradient(135deg, #ff5c6c 0%, #ffa64c 100%);
+  --gradient-1:    linear-gradient(135deg, #0d47a1 0%, #2962ff 100%);
+  --gradient-2:    linear-gradient(135deg, #0d47a1 0%, #2962ff 100%);
 
   /* radii */
   --radius-sm: 10px;
@@ -76,7 +76,7 @@ body {
 .blob-1 {
   width: 420px;
   height: 420px;
-  background: #6c63ff;
+  background: #2962ff;
   top: -10%;
   left: -5%;
 }
@@ -84,7 +84,7 @@ body {
 .blob-2 {
   width: 350px;
   height: 350px;
-  background: #b065ff;
+  background: #0d47a1;
   bottom: 5%;
   right: -8%;
   animation-delay: -6s;
@@ -93,7 +93,7 @@ body {
 .blob-3 {
   width: 280px;
   height: 280px;
-  background: #ff5c6c;
+  background: #1565c0;
   top: 50%;
   left: 45%;
   animation-delay: -12s;
